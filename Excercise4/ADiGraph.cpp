@@ -26,7 +26,7 @@ void ADiGraph::addArc(int i, int j, double w) {
 }
 
 
-/*Bellman's algorithm -
+/*Bellman'matrix algorithm -
 *finds the shortest path from vertex 0 to the rest of the vertices
 */
 void ADiGraph::shortest_distances(double U[]) {
