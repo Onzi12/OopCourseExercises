@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ADiGraph.h" />
+    <ClInclude Include="DiGraph.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ADiGraph.cpp" />
+    <ClCompile Include="DiGraph.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{ACCC12A5-B77F-42E5-9753-669D4DA097C3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -141,8 +150,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
