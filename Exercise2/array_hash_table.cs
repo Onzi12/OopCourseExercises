@@ -7,7 +7,7 @@ namespace Exercise2
         private readonly int[] arr;
         protected ifunc hash;
         private const int HashEmptyCell = -1;
-        private int n;
+        private readonly int n;
 
         public array_hash_table(int n)
         {
@@ -50,6 +50,7 @@ namespace Exercise2
                 }
             }
 
+            // reached the end (or an empty space) and number wasn't found
             return false;
         }
 
